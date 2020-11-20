@@ -1,0 +1,46 @@
+createdAt: "2020-11-19T15:01:15.036Z"
+updatedAt: "2020-11-20T02:03:52.016Z"
+type: "MARKDOWN_NOTE"
+folder: "e99b7e361c550eda843f"
+title: "github新建本地仓库并将代码提交到远程仓库"
+tags: [
+  "GIT相关"
+]
+content: '''
+  # github新建本地仓库并将代码提交到远程仓库
+  ![dff20663.png](:storage\\9b1f57e6-f581-49db-844a-18d3293842f0\\dff20663.png)
+  
+  ---
+  1.安装git
+  2.生成密钥
+    ssh-keygen -t rsa -C "..@.com"
+  3.查看密钥
+    cd ~\\.ssh
+    vim id_rsa.pub
+  4.登陆GitLab账号，点击用户图像，然后 Settings -> 左栏点击 SSH keys
+  5.复制公钥内容，粘贴进“Key”文本区域内，取名字
+  6.点击Add Key
+  
+  基本使用
+  把服务器上的东西扣下来
+  git clone git@git.heytea.com:qaheytea\\heyteatest.git
+  
+  将所有有改动的添加到要提交的本地库中
+  git add .
+  
+  再次执行以下命令(修改为自己的邮箱名和用户名)：
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+  
+  将修改提交到本地库
+  git commit -a -m "提交添加的注释信息"
+  
+  地库的commit推送到远程服务器
+  git push 
+  
+  ---
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

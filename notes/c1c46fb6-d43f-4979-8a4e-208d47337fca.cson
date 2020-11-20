@@ -1,5 +1,5 @@
 createdAt: "2020-11-19T13:13:07.332Z"
-updatedAt: "2020-11-19T14:11:09.026Z"
+updatedAt: "2020-11-20T02:09:35.625Z"
 type: "MARKDOWN_NOTE"
 folder: "e99b7e361c550eda843f"
 title: "灰度发布"
@@ -51,8 +51,7 @@ content: '''
   3、滚动发布：金丝雀发布的变形、分批发布、多批发布，适合大规模应用发布
   **优点**：出现问题不会影响全网用户，适合大规模应用发布
   **缺点**：发布和回滚周期较长
-  ![0c5a601c.png](:storage\\c1c46fb6-d43f-4979-8a4e-208d47337fca\\0c5a601c.png)
-  
+  ![fccd0043.png](:storage\\c1c46fb6-d43f-4979-8a4e-208d47337fca\\fccd0043.png)
   
   
   ## 三、微服务金丝雀发布开源实现
